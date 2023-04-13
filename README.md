@@ -5,7 +5,7 @@
 pnpm install
 pnpm run dev
 ````
-Verification of the token should is successful and the content appears in both occasions (key AS-IS and key with escaped new-lines):
+Verification of the token is successful and the content appears in both occasions (key AS-IS and key with escaped new-lines):
 ````
 {"hello":"world","iat":1681402620,"exp":1681406220}
 ````
@@ -19,4 +19,4 @@ Rename or remove the .env-file.
 vc pull
 vc dev
 ````
-Verfication of the token now fail AS-IS. The public key need to have it's new-lines escaped in order to work properly. What has been inserted into the dashboard is not what one gets.
+Verfication of the token now fail AS-IS. The public key need to have its new-lines escaped in order to work properly. What has been inserted into the dashboard is not what one gets.
